@@ -308,7 +308,6 @@ main {
   object-fit: contain;
 }
 
-/* Pawdoku has no app icon yet; its husky sits on the game's yellow. */
 .game-icon-pawdoku {
   background: #ffd878;
   padding: 10px;

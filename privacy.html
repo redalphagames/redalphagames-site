@@ -34,7 +34,7 @@
         <article class="card doc-body">
           <div class="doc-head">
             <h1>Privacy Policy</h1>
-            <span class="badge">Last updated: 27 September 2026</span>
+            <span class="badge">Last updated: 18 October 2026</span>
           </div>
 
           <p>
@@ -360,15 +360,17 @@
 
           <h2 id="retention">7. Data retention</h2>
           <p>
-            For Sudoku Fun, account deletion removes the active player profile,
-            saved game progress and game sign-in account. A limited account-linked
-            deletion record is kept while cleanup is pending so failures can be
-            retried. After account deletion succeeds, a temporary security record
-            is scheduled to expire after 65 minutes; automatic physical removal
-            can take additional time. Pending failures retain their deletion
+            In Sudoku Fun and Arrow Escape, an account-deletion request removes
+            that game's active server-side player profile and Firebase sign-in
+            account; the app also clears its locally stored game data on that
+            device. A limited account-linked deletion record is kept while cleanup
+            is pending so failures can be retried and old tokens cannot recreate
+            the profile. After Firebase account deletion succeeds, this temporary
+            security record is scheduled to expire after 65 minutes; automatic
+            physical removal may take additional time. Pending failures retain their
             record until resolved. Historical backups and operational logs are
             not immediately erased by an account-deletion request. Instructions
-            for requesting deletion, including without access to the app, are on
+            for requesting deletion, including without access to a game, are on
             our <a href="delete-account.html">account deletion page</a>.
           </p>
           <p>
@@ -417,10 +419,10 @@
 
           <h2 id="rights">11. Your rights and choices</h2>
 
-          <h3>Delete your Sudoku Fun account</h3>
+          <h3>Delete a game account</h3>
           <p>
             You can delete your account and linked game data from Settings in
-            Sudoku Fun. The steps and retention details are on our
+            the relevant game. The steps and retention details are on our
             <a href="delete-account.html">account deletion page</a>.
           </p>
 
