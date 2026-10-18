@@ -292,6 +292,46 @@ main {
   font-size: 0.9rem;
 }
 
+/* Games page */
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.game-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-sm);
+  object-fit: contain;
+}
+
+/* Pawdoku has no app icon yet; its husky sits on the game's yellow. */
+.game-icon-pawdoku {
+  background: #ffd878;
+  padding: 10px;
+}
+
+.game .status {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.game a.more {
+  margin-top: auto;
+}
+
 /* Legal document pages */
 .doc-head {
   margin-bottom: 28px;

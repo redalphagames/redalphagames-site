@@ -17,6 +17,7 @@ Then open `http://localhost:8080`.
 ## Public URLs
 
 - Website: https://redalphagames.com
+- Games: https://redalphagames.com/games.html
 - Privacy Policy: https://redalphagames.com/privacy.html
 - Account deletion: https://redalphagames.com/delete-account.html
 - Terms and Conditions: https://redalphagames.com/terms.html
