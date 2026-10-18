@@ -29,11 +29,12 @@ Until then, the site is available through its `github.io` project URL.
 
 Push changes to `main`; GitHub Pages deploys them automatically. Review the
 legal documents whenever company details, providers, governing law, or data
-practices change.
+practices change. The deletion page is shared across supported RedAlpha Games
+titles; verify its instructions and retention details against each shipped app.
 
 This repository is the source of truth for the studio website and its privacy
 and account-deletion pages. Do not maintain duplicate website files inside game
-repositories. The Sudoku Fun deletion page includes the in-app and support-email
+repositories. The account-deletion page documents in-app and support-email
 request routes, background cleanup, temporary deletion-record retention, and
 backup/log retention disclosures. Verify the public URLs after deployment before
 submitting the associated Google Play declarations.
